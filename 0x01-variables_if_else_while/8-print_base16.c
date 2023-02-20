@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -9,13 +7,16 @@
  */
 int main(void)
 {
-	for(int n = 0; n <= 9 ; ++n)
+	int n = 0;
+	char c;
+
+	for (; n <= 9 ; ++n)
 		putchar('0' + n);
-	for(char c = 'a'; c <= 'f'; ++c)
+	for (c = 'a'; c <= 'f'; ++c)
 		putchar(c);
 	putchar('\n');
 
-	// OR: another soltuion based on ASCII codes
+	/* OR: another soltuion based on ASCII codes */
 	/* char a = '0';
 	for (int i = 0; i < 10; i++)
 	{
