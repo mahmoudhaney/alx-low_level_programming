@@ -16,8 +16,11 @@ int main(void)
 		putchar(c);
 	putchar('\n');
 
-	/* OR: another soltuion based on ASCII codes */
-	/* char a = '0';
+	/* 
+	OR: another soltuion based on ASCII codes 
+	*/
+	/* 
+	char a = '0';
 	for (int i = 0; i < 10; i++)
 	{
 		putchar(a);
@@ -29,6 +32,7 @@ int main(void)
 		putchar('0' + a);
 		a++;
 	}
-	putchar('\n'); */
+	putchar('\n'); 
+	*/
 	return (0);
 }

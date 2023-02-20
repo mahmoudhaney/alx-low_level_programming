@@ -21,7 +21,8 @@ int main(void)
 	putchar('\n');
 
 	/* OR: */
-	/*for (i = 10; i < 20; i++)
+	/*
+	for (i = 10; i < 20; i++)
 	{
 		putchar((i % 10) + '0');
 		if (i != 19)
@@ -30,6 +31,7 @@ int main(void)
 			putchar(' ');
 		}
 	}
-	putchar('\n');*/
+	putchar('\n');
+	*/
 	return (0);
 }
