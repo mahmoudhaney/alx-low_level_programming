@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -10,9 +8,9 @@
 int main(void)
 {
 	int a = 0;
-	
+
 	for (; a <= 9 ; ++a)
-		putchar('0' + a); // To make it 'char'
+		putchar('0' + a);
 	putchar('\n');
 	return (0);
 }
