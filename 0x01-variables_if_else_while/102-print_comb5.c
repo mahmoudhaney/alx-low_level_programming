@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
 /**
@@ -9,9 +7,12 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 99; i++)
+	int i = 0;
+	int j;
+
+	for (; i <= 99; i++)
 	{
-		for (int j = i + 1; j <= 99; j++)
+		for (j = i + 1; j <= 99; j++)
 		{
 			putchar(i / 10 + '0');
 			putchar(i % 10 + '0');
