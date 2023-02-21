@@ -2,9 +2,12 @@
 #include "6-abs.c"
 #include <stdio.h>
 /**
- * print_to_98
+ * print_to_98 - main function
+ *
  * @n: integer
- * Return: void
+ *
+ * Return: 1 if true, 0 if false
+ *
  */
 
 void print_to_98(int n)
