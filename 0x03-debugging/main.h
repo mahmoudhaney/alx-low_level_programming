@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdio.h>
+
 /**
  * positive_or_negative - prints if n i is positive or negative
  * @i: inteher to use
@@ -9,4 +10,4 @@
  */
 void positive_or_negative(int i);
 
-#endif
+#endif /* MAIN_H */
