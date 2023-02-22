@@ -1,6 +1,4 @@
-Functions - Nested Loops
-
-# `C` - Variables, Selection, Loop
+# `C` Functions - Nested Loops
 
 ## Practice Scenarios
 
